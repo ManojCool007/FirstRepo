@@ -17,7 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class EmployeeSearchTest {
-	
+	//Search Employee
 	public static WebDriver driver;
 	public static void main(String[] args) throws IOException, InterruptedException {
 		FileInputStream fis=new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
